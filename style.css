@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+#game-area {
+    padding: 50px 0 0 150px;
+}
+
+#choice-area {
+    display: flex;
+    flex-direction: column;
+    margin-left: 267px;
+    padding-top: 178px;
+}
+label {
+    padding-bottom: 35px;
+}
+span {
+    color: rgb(22, 91, 109);
+    padding-bottom: 25px;
+
+}
+
+.group {
+    display: flex;
+}
+.rect {
+    border: 1px solid black;
+    border-left: none;
+    border-top: none;
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.rect > p {
+    font-size: 40px;
+    font-size: 83px;
+    margin: 0;
+    margin-left: 21px;
+}
+
+#rect3, #rect6, #rect9 {
+    border-right: none;
+}  
+
+#rect7, #rect8, #rect9 {
+    border-bottom: none;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: #83A8BF;
+}
