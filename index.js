@@ -91,45 +91,45 @@ main.win = () => {
     for (let i = 0; i < arrayOptions.length; i++) {
         if (mainObject.rect2 == arrayOptions[i] && mainObject.rect5 == arrayOptions[i] &&
             mainObject.rect8 == arrayOptions[i]) {
-                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]}`;
+                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]} has won!`;
             }
 
     }
     for (let i = 0; i < arrayOptions.length; i++) {
         if (mainObject.rect3 == arrayOptions[i] && mainObject.rect6 == arrayOptions[i] &&
             mainObject.rect9 == arrayOptions[i]) {
-                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]}`;
+                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]} has won!`;
             }
     }
     for (let i = 0; i < arrayOptions.length; i++) {
         if (mainObject.rect1 == arrayOptions[i] && mainObject.rect2 == arrayOptions[i] &&
             mainObject.rect3 == arrayOptions[i]) {
-                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]}`;
+                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]} has won!`;
             }
     }
     for (let i = 0; i < arrayOptions.length; i++) {
         if (mainObject.rect4 == arrayOptions[i] && mainObject.rect5 == arrayOptions[i] &&
             mainObject.rect6 == arrayOptions[i]) {
-                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]}`;
+                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]} has won!`;
             }
     }
     for (let i = 0; i < arrayOptions.length; i++) {
         if (mainObject.rect7 == arrayOptions[i] && mainObject.rect8 == arrayOptions[i] &&
             mainObject.rect9 == arrayOptions[i]) {
-                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]}`;
+                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]} has won!`;
             }
     }
     for (let i = 0; i < arrayOptions.length; i++) {
         if (mainObject.rect1 == arrayOptions[i] && mainObject.rect5 == arrayOptions[i] &&
             mainObject.rect9 == arrayOptions[i]) {
-                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]}`;
+                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]} has won!`;
             }
     }
 
     for (let i = 0; i < arrayOptions.length; i++) {
         if (mainObject.rect3 == arrayOptions[i] && mainObject.rect5 == arrayOptions[i] &&
             mainObject.rect7 == arrayOptions[i]) {
-                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]}`;
+                document.getElementById('msg-error').innerText = `'Game Over the ${ arrayOptions[i]} has won!`;
             }
     }
     gameNumber.push(main.value);
