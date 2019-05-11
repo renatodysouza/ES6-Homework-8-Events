@@ -6,6 +6,13 @@ body {
     padding: 50px 0 0 150px;
 }
 
+#container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -3;
+}
+
 #choice-area {
     display: flex;
     flex-direction: column;
@@ -50,4 +57,12 @@ span {
 
 .navbar-default .navbar-nav > .active > a {
     background-color: #83A8BF;
+}
+
+button {
+    margin-bottom: 17px;
+    height: 37px;
+}
+.reset {
+    margin-top: 30px;
 }
